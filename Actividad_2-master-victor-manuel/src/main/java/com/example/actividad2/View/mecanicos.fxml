@@ -1,0 +1,16 @@
+<?import java.awt.TextField?>
+<?import java.awt.Button?>
+<?import javafx.scene.layout.VBox?>
+<VBox spacing="10" alignment="CENTER"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.actividad2.Controller.MecanicosController">
+
+    <TextField fx:id="txtId" promptText="ID"/>
+    <TextField fx:id="txtNombre" promptText="Nombre"/>
+    <TextField fx:id="txtEspecialidad" promptText="Especialidad"/>
+    <TextField fx:id="txtCodigo" promptText="Código Interno"/>
+
+    <Button text="Registrar Mecánico" onAction="#registrarMecanico"/>
+
+</VBox>

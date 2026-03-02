@@ -1,0 +1,19 @@
+<?import java.awt.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Button?>
+<VBox spacing="10" alignment="CENTER"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.actividad2.Controller.OrdenServicioController">
+
+    <ComboBox fx:id="cbBicicleta" promptText="Bicicleta"/>
+    <ComboBox fx:id="cbMecanico" promptText="Mecánico"/>
+
+    <TextField fx:id="txtMotivo" promptText="Motivo"/>
+    <TextField fx:id="txtDiagnostico" promptText="Diagnóstico"/>
+    <TextField fx:id="txtCosto" promptText="Costo"/>
+
+    <Button text="Crear Orden" onAction="#crearOrden"/>
+
+</VBox>

@@ -1,0 +1,15 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Button?>
+<VBox spacing="10" alignment="CENTER"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.actividad2.Controller.HistorialController">
+
+    <TextField fx:id="txtSerial" promptText="Serial Bicicleta"/>
+    <Button text="Buscar" onAction="#buscarHistorial"/>
+
+    <ListView fx:id="listaOrdenes"/>
+
+</VBox>

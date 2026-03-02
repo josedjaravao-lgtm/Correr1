@@ -1,0 +1,20 @@
+<?import java.awt.Button?>
+<?import java.awt.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ComboBox?>
+<VBox spacing="10" alignment="CENTER"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.actividad2.Controller.BicicletasController">
+
+    <TextField fx:id="txtSerial" promptText="Serial"/>
+    <TextField fx:id="txtMarca" promptText="Marca"/>
+    <TextField fx:id="txtTipo" promptText="Tipo"/>
+    <TextField fx:id="txtColor" promptText="Color"/>
+    <TextField fx:id="txtYear" promptText="Año"/>
+
+    <ComboBox fx:id="cbClientes" promptText="Cliente"/>
+
+    <Button text="Registrar Bicicleta" onAction="#registrarBicicleta"/>
+
+</VBox>
