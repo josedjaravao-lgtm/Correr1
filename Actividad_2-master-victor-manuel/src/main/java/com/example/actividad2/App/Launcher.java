@@ -1,6 +1,6 @@
 package com.example.actividad2.App;
 
-import com.example.actividad2.MainApp;
+import com.example.actividad2.App.MainApp;
 import javafx.application.Application;
 
 public class Launcher {

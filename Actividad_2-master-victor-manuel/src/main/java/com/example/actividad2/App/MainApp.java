@@ -1,4 +1,4 @@
-package com.example.actividad2;
+package com.example.actividad2.App;
 
 import com.example.actividad2.View.*;
 import javafx.application.Application;
@@ -13,9 +13,8 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(
-                getClass().getResource("View/clientes.fxml")
-        );
+
+        Parent root = FXMLLoader.load(getClass().getResource("/com/example/actividad2/Viewclientes.fxml"));
         stage.setScene(new Scene(root));
         stage.setTitle("Sistema Taller de Bicicletas");
         stage.show();
